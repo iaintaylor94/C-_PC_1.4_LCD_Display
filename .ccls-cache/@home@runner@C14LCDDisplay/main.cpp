@@ -1,8 +1,9 @@
 #include <iostream>
-#include "Layers.h"
+#include "Digits.h"
 
 int main(int argc, char *argv[]) {
-  Layers layers (argc, argv);
-  layers.getInput();
-  layers.computeLayers();
+  Digits digits (argc, argv);
+  digits.getInput();
+  digits.computeLayers();
+  digits.computeDigits();
 }
