@@ -1,6 +1,8 @@
 #include <iostream>
-#include "FileHandling.h"
+#include "Layers.h"
 
 int main(int argc, char *argv[]) {
-  FileHandling fileHandling (argc, argv);
+  Layers layers (argc, argv);
+  layers.getInput();
+  layers.computeLayers();
 }

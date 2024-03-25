@@ -1,5 +1,4 @@
 #include "FileIO.h"
-//#include <fstream>
 
 bool FileIO::getInput (void) {
   fileIn >> fontSize >> number;
