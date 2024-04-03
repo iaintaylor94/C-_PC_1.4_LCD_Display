@@ -2,173 +2,179 @@
 #include <iostream>
 
 
-void Digits::printVector (std::vector<std::string> &vec) {
-  for (auto ir = vec.begin(); ir != vec.end(); ir++) {
-    std::cout << *ir << std::endl;
+void Digits::printVector(void) {
+  for (auto ir = digitVec.begin(); ir != digitVec.end(); ir++) {
+    for (auto jr = ir->begin(); jr != ir->end(); jr++) {
+      std::cout << *jr << std::endl;
+    }
   }
 }
 
 
 void Digits::computeDigit0(void) {
-  digit0.clear();
+  digit.clear();
 
-  digit0.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit0.push_back(both);
+    digit.push_back(both);
   }
-  digit0.push_back(blank);
+  digit.push_back(blank);
   for (int i = 0; i < fontSize; i++) {
-    digit0.push_back(both);
+    digit.push_back(both);
   }
-  digit0.push_back(horizontal);
+  digit.push_back(horizontal);
 
-  printVector (digit0);
+  //printVector (digit);
 }
 void Digits::computeDigit1(void) {
-  digit1.clear();
+  digit.clear();
 
-  digit1.push_back(blank);
+  digit.push_back(blank);
   for (int i = 0; i < fontSize; i++) {
-    digit1.push_back(right);
+    digit.push_back(right);
   }
-  digit1.push_back(blank);
+  digit.push_back(blank);
   for (int i = 0; i < fontSize; i++) {
-    digit1.push_back(right);
+    digit.push_back(right);
   }
-  digit1.push_back(blank);
+  digit.push_back(blank);
 
-  printVector (digit1);
+  //printVector (digit);
 }
 void Digits::computeDigit2(void) {
-  digit2.clear();
+  digit.clear();
 
-  digit2.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit2.push_back(right);
+    digit.push_back(right);
   }
-  digit2.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit2.push_back(left);
+    digit.push_back(left);
   }
-  digit2.push_back(horizontal);
+  digit.push_back(horizontal);
 
-  printVector (digit2);
+  //printVector (digit);
 }
 void Digits::computeDigit3(void) {
-  digit3.clear();
+  digit.clear();
 
-  digit3.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit3.push_back(right);
+    digit.push_back(right);
   }
-  digit3.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit3.push_back(right);
+    digit.push_back(right);
   }
-  digit3.push_back(horizontal);
+  digit.push_back(horizontal);
 
-  printVector (digit3);
+  //printVector (digit);
 }
 void Digits::computeDigit4(void) {
-  digit4.clear();
+  digit.clear();
 
-  digit4.push_back(blank);
+  digit.push_back(blank);
   for (int i = 0; i < fontSize; i++) {
-    digit4.push_back(both);
+    digit.push_back(both);
   }
-  digit4.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit4.push_back(right);
+    digit.push_back(right);
   }
-  digit4.push_back(blank);
+  digit.push_back(blank);
 
-  printVector (digit4);
+  //printVector (digit);
 }
 void Digits::computeDigit5(void) {
-  digit5.clear();
+  digit.clear();
 
-  digit5.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit5.push_back(left);
+    digit.push_back(left);
   }
-  digit5.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit5.push_back(right);
+    digit.push_back(right);
   }
-  digit5.push_back(horizontal);
+  digit.push_back(horizontal);
 
-  printVector (digit5);
+  //printVector (digit);
 }
 void Digits::computeDigit6(void) {
-  digit6.clear();
+  digit.clear();
 
-  digit6.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit6.push_back(left);
+    digit.push_back(left);
   }
-  digit6.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit6.push_back(both);
+    digit.push_back(both);
   }
-  digit6.push_back(horizontal);
+  digit.push_back(horizontal);
 
-  printVector (digit6);
+  //printVector (digit);
 }
 void Digits::computeDigit7(void) {
-  digit7.clear();
+  digit.clear();
 
-  digit7.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit7.push_back(right);
+    digit.push_back(right);
   }
-  digit7.push_back(blank);
+  digit.push_back(blank);
   for (int i = 0; i < fontSize; i++) {
-    digit7.push_back(right);
+    digit.push_back(right);
   }
-  digit7.push_back(blank);
+  digit.push_back(blank);
 
-  printVector (digit7);
+  //printVector (digit);
 }
 void Digits::computeDigit8(void) {
-  digit8.clear();
+  digit.clear();
 
-  digit8.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit8.push_back(both);
+    digit.push_back(both);
   }
-  digit8.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit8.push_back(both);
+    digit.push_back(both);
   }
-  digit8.push_back(horizontal);
+  digit.push_back(horizontal);
 
-  printVector (digit8);
+  //printVector (digit);
 }
 void Digits::computeDigit9(void) {
-  digit9.clear();
+  digit.clear();
 
-  digit9.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit9.push_back(both);
+    digit.push_back(both);
   }
-  digit9.push_back(horizontal);
+  digit.push_back(horizontal);
   for (int i = 0; i < fontSize; i++) {
-    digit9.push_back(right);
+    digit.push_back(right);
   }
-  digit9.push_back(blank);
+  digit.push_back(blank);
 
-  printVector (digit9);
+  //printVector (digit);
 }
 
 void Digits::computeDigits(void) {
-  computeDigit0();
-  computeDigit1();
-  computeDigit2();
-  computeDigit3();
-  computeDigit4();
-  computeDigit5();
-  computeDigit6();
-  computeDigit7();
-  computeDigit8();
-  computeDigit9();
+  digitVec.clear();
+  
+  computeDigit0(); digitVec.push_back(digit);
+  computeDigit1(); digitVec.push_back(digit);
+  computeDigit2(); digitVec.push_back(digit);
+  computeDigit3(); digitVec.push_back(digit);
+  computeDigit4(); digitVec.push_back(digit);
+  computeDigit5(); digitVec.push_back(digit);
+  computeDigit6(); digitVec.push_back(digit);
+  computeDigit7(); digitVec.push_back(digit);
+  computeDigit8(); digitVec.push_back(digit);
+  computeDigit9(); digitVec.push_back(digit);
+
+  digitHeight = fontSize * 2 + 3;
 }

@@ -7,3 +7,9 @@ bool FileIO::getInput (void) {
   else 
     return true;
 }
+
+void printNumVec (void) {
+  for (auto ir = numberVec.begin(); ir != numberVec.end(); ir++) {
+    std::cout << *ir << std::endl;
+  }
+}

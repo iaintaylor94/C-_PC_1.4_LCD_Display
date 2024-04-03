@@ -1,9 +1,13 @@
 #include <iostream>
-#include "Digits.h"
+#include "Number.h"
 
 int main(int argc, char *argv[]) {
-  Digits digits (argc, argv);
-  digits.getInput();
-  digits.computeLayers();
-  digits.computeDigits();
+  Number number (argc, argv);
+  while (number.getInput()) {
+    number.computeLayers();
+    number.computeDigits();
+    number.printVector();
+    //number.fillNumberArray();
+    //number.printNumVec();
+  }
 }

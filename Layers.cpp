@@ -6,7 +6,7 @@ void Layers::computeHorizontal (void) {
 
   horizontal.push_back(' ');
   for (int i = 0; i < fontSize; i++) {
-    horizontal.push_back('_');
+    horizontal.push_back('-');
   }
   horizontal.push_back(' ');
 
