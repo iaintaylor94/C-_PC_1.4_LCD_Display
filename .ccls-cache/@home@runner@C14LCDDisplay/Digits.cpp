@@ -23,8 +23,6 @@ void Digits::computeDigit0(void) {
     digit.push_back(both);
   }
   digit.push_back(horizontal);
-
-  //printVector (digit);
 }
 void Digits::computeDigit1(void) {
   digit.clear();
@@ -38,8 +36,6 @@ void Digits::computeDigit1(void) {
     digit.push_back(right);
   }
   digit.push_back(blank);
-
-  //printVector (digit);
 }
 void Digits::computeDigit2(void) {
   digit.clear();
@@ -53,8 +49,6 @@ void Digits::computeDigit2(void) {
     digit.push_back(left);
   }
   digit.push_back(horizontal);
-
-  //printVector (digit);
 }
 void Digits::computeDigit3(void) {
   digit.clear();
@@ -68,8 +62,6 @@ void Digits::computeDigit3(void) {
     digit.push_back(right);
   }
   digit.push_back(horizontal);
-
-  //printVector (digit);
 }
 void Digits::computeDigit4(void) {
   digit.clear();
@@ -83,8 +75,6 @@ void Digits::computeDigit4(void) {
     digit.push_back(right);
   }
   digit.push_back(blank);
-
-  //printVector (digit);
 }
 void Digits::computeDigit5(void) {
   digit.clear();
@@ -98,8 +88,6 @@ void Digits::computeDigit5(void) {
     digit.push_back(right);
   }
   digit.push_back(horizontal);
-
-  //printVector (digit);
 }
 void Digits::computeDigit6(void) {
   digit.clear();
@@ -113,8 +101,6 @@ void Digits::computeDigit6(void) {
     digit.push_back(both);
   }
   digit.push_back(horizontal);
-
-  //printVector (digit);
 }
 void Digits::computeDigit7(void) {
   digit.clear();
@@ -128,8 +114,6 @@ void Digits::computeDigit7(void) {
     digit.push_back(right);
   }
   digit.push_back(blank);
-
-  //printVector (digit);
 }
 void Digits::computeDigit8(void) {
   digit.clear();
@@ -143,8 +127,6 @@ void Digits::computeDigit8(void) {
     digit.push_back(both);
   }
   digit.push_back(horizontal);
-
-  //printVector (digit);
 }
 void Digits::computeDigit9(void) {
   digit.clear();
@@ -158,8 +140,6 @@ void Digits::computeDigit9(void) {
     digit.push_back(right);
   }
   digit.push_back(blank);
-
-  //printVector (digit);
 }
 
 void Digits::computeDigits(void) {

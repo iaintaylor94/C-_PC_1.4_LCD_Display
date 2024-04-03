@@ -9,8 +9,8 @@ void Layers::computeHorizontal (void) {
     horizontal.push_back('-');
   }
   horizontal.push_back(' ');
+  horizontal.push_back(' ');
 
-  std::cout << horizontal << std::endl;
 }
 void Layers::computeLeft (void) {
   left.clear();
@@ -20,8 +20,8 @@ void Layers::computeLeft (void) {
     left.push_back(' ');
   }
   left.push_back(' ');
+  left.push_back(' ');
 
-  std::cout << left << std::endl;
 }
 void Layers::computeRight (void) {
   right.clear();
@@ -33,7 +33,6 @@ void Layers::computeRight (void) {
   right.push_back('|');
   right.push_back(' ');
 
-  std::cout << right << std::endl;
 }
 void Layers::computeBoth (void) {
   both.clear();
@@ -45,7 +44,6 @@ void Layers::computeBoth (void) {
   both.push_back('|');
   both.push_back(' ');
 
-  std::cout << both << std::endl;
 }
 void Layers::computeBlank (void) {
   blank.clear();
@@ -54,7 +52,6 @@ void Layers::computeBlank (void) {
     blank.push_back(' ');
   }
 
-  std::cout << blank << std::endl;
 }
 
 void Layers::computeLayers(void) {

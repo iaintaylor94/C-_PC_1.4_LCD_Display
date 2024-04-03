@@ -6,8 +6,8 @@ int main(int argc, char *argv[]) {
   while (number.getInput()) {
     number.computeLayers();
     number.computeDigits();
-    number.printVector();
-    //number.fillNumberArray();
-    //number.printNumVec();
+    //number.printVector();
+    number.fillNumberArray();
+    number.printNumVec();
   }
 }
