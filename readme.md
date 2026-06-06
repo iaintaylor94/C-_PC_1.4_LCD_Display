@@ -1,7 +1,10 @@
 # Programming Challenges C++
 ## Problem 1.4 LCD Display[^1]
 ### Problem description
-This program prints several digits to the terminal at a predetermined size in digital format. The digits and size are input to the program, each line contains the size (1 <= s <= 10), followed by the number to print (0 <= n <= 99,999,999). The program is terminated when the size and number are both zero.
+This program prints several digits to the terminal at a predetermined size in digital format. 
+The digits and size are input to the program, each line contains the size (1 <= s <= 10), 
+followed by the number to print (0 <= n <= 99,999,999). 
+The program is terminated when the size and number are both zero.
 
 
 ### Example 
